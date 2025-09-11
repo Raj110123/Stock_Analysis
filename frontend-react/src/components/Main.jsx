@@ -1,8 +1,11 @@
 import React from 'react'
 import Button from './Button'
+import Header from './Header'
+import Footer from './Footer'
 
 const Main = () => {
   return (
+    <>
     <div className='container'>
     <div className='pt-5 text-center bg-light-dark'>
         <h1 className='text-light'>Stock prediction portal</h1>
@@ -11,6 +14,7 @@ const Main = () => {
         <Button class='btn btn-outline-info' text='Logon'/>
     </div>
     </div>
+    </>
   )
 }
 
